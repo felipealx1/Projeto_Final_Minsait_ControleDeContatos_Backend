@@ -30,7 +30,7 @@ public class PessoaService {
                 .orElseThrow(() -> new PessoaNotFoundException("A Pessoa não foi encontrada pelo id: " + id));
         }
 
-    public Pessoa autalizarPessoa(Long id, Pessoa pessoaAtualizada){
+    public Pessoa atualizarPessoa(Long id, Pessoa pessoaAtualizada){
         Pessoa pessoaExistente = pessoaRepository.findById(id)
                 .orElseThrow(() ->new PessoaNotFoundException("Não foi possível atualizar a Pessoa, pois não foi encontrada pelo id" + id));
         pessoaExistente.setNome(pessoaAtualizada.getNome());
