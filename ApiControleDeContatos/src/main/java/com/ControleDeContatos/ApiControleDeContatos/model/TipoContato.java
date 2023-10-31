@@ -1,7 +1,7 @@
 package com.ControleDeContatos.ApiControleDeContatos.model;
 
 public enum TipoContato {
-    TELETONE(0),
+    TELEFONE(0),
     CELULAR(1);
 
     private final int valor;
