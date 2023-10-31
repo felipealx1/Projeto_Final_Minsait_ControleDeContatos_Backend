@@ -3,7 +3,8 @@ package com.ControleDeContatos.ApiControleDeContatos.model;
 import jakarta.persistence.*;
 
 import java.util.Objects;
-
+@Entity
+@Table(name = "TB_CONTATO")
 public class Contato {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
