@@ -33,7 +33,6 @@ public class ContatoResource {
     }
 
     @Operation(summary = "Faz o cadastro dos dados de Contato ")
-
     @PostMapping
     public ResponseEntity<Contato> cadastrarContato(@PathVariable Long idPessoa, @RequestBody Contato contato){
         Pessoa pessoa = pessoaService.buscarPessoaId(idPessoa);
