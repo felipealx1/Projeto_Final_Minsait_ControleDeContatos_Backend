@@ -1,5 +1,5 @@
-# Projeto_Final_Minsait_ControleDeContatos_Backend
-Uma API Rest para Controle de Contatos, que gerencia um sitema de cadastro de Pessoas e seus respectivos Contatos. Um dos objetivo da nossa API  é permitir que operações CRUD - com o uso dos métodos HTTP - GET, POST, PUT e DELETE sejam realizadas. A API estará conectada ao banco de dados MySQL. Foi realizado a documentção da API com o OpenAPI - Swagger, facilitando e incluindo declarações claras e didáticas.
+# Projeto_Final_Minsait_Controle_Backend
+Uma API Rest para Controle de Contatos, que gerencia um sitema de cadastro de Pessoas. Um dos objetivo da nossa API  é permitir que operações CRUD - com o uso dos métodos HTTP - GET, POST, PUT e DELETE sejam realizadas. A API estará conectada ao banco de dados MySQL. Foi realizado a documentção da API com o OpenAPI - Swagger, facilitando e incluindo declarações claras e didáticas.
 Para acessar o Swagger primeiro deve ser inicializado a aplicação e em seguida acessar o site http://localhost:8080/swagger-ui/index.html#/<br>
 
 # Banco_de_Dados_MySQL
